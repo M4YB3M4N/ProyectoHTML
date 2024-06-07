@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electrodomesticos</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/Modificaciones/style.css">
+    
+</head>
+<body>
+    <header >
+      <div class="Inicio"> 
+        <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <img src="imagen/Logo.jpeg" height="300px">
+          <div class="container mt-4">
+            <form class="d-flex">
+                <input class="form-control me-2 mi-busqueda " type="search" placeholder="Buscar..." aria-label="Buscar">
+                <button type="button" class="btn btn-primary">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"></path>
+                  </svg>
+                </button>        
+            </form>
+        </div>
+        </a>
+        
+      </div>  
+        <div class="container mt-3">
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="http://127.0.0.1:5500/proyecto%201/HTML%20proyecto/proyecto.html#" class="nav-link" _msttexthash="95589" _msthash="11">Inicio</a></li>
+            <div class="dropdown">
+              <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categorías
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Refrigeradores</a></li>
+                  <li><a class="dropdown-item" href="#">Cocinas</a></li>
+                  <li><a class="dropdown-item" href="#">Hornos</a></li>
+                  <li><a class="dropdown-item" href="#">Freidoras</a></li>
+                </ul>
+              </div>
+          <li class="nav-item"><a href="#" class="nav-link" _msttexthash="95589" _msthash="11">Cómo Comprar</a></li>
+          <li class="nav-item"><a href="#" class="nav-link" _msttexthash="425438" _msthash="12">Preguntas frecuentes</a></li>
+          <li class="nav-item"><a href="#" class="nav-link" _msttexthash="107419" _msthash="13">Contactos</a></li>
+          
+        </ul> 
+        </div>
+    </header>
+
+    <div class="container mt-4">
+      <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner imagenproducto">
+                        <div class="carousel-item active">
+                            <img src="imagen/Producto1.jpeg" class="d-block w-100" alt="Imagen 1">
+                        </div>
+                       
+                        <div class="carousel-item active">
+                          <img src="imagen/Producto1.2.jpeg" class="d-block w-100" alt="Imagen 1">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h2>Cocina eléctrica Domec CEXG 56 cm</h2>
+                <p class="price">$994.190</p>
+                <p class="discount">10% de descuento pagando con efectivo / depósito / Transferencia bancaria</p>
+                <div class="quantity">
+                    <label for="quantity">Cantidad:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1">
+                </div>
+                <button class="btn btn-primary">AGREGAR AL CARRITO</button>
+                <br>
+                <div class="shipping">
+                    <h4>Medios de envío</h4>
+                    <p>Ingresa tu código postal:</p>
+                    <input type="text" id="postal-code" name="postal-code">
+                    <button class="btn btn-secondary">CALCULAR</button>
+                </div>
+            </div>
+        </div>
+    </div>    
+  </div>
+ 
+
+
+    <footer class="bg-dark text-light pt-3 pb-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 mb-3">
+              <h5>Categorías</h5>
+              <ul class="list-unstyled">
+                <li><a href="http://127.0.0.1:5500/proyecto%201/HTML%20proyecto/proyecto.html#" class="text-light">Inicio</a></li>
+                <li><a href="#" class="text-light">Quiénes Somos</a></li>
+                <li><a href="#" class="text-light">Productos</a></li>
+                <li><a href="#" class="text-light">Cómo Comprar</a></li>
+                <li><a href="#" class="text-light">Preguntas Frecuentes</a></li>
+                <li><a href="#" class="text-light">Contacto</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4 mb-3">
+              <h5>Contáctanos</h5>
+              <p class="mb-1">Teléfono: 591-75894587</p>
+              <p class="mb-1">Email: HomeApi@gmail.com</p>
+              <p class="mb-1">Dirección: Av Buenos aires 2502</p>
+            </div>
+            <div class="col-md-4 mb-3">
+              <h5>Sigamos conectados</h5>
+              <a href="https://www.facebook.com/" target="_blank">
+                <i class="fab fa-facebook"></i> Facebook
+              </a>
+              <br>
+              <a href="https://t.me/tunombredeusuario" target="_blank">
+                <i class="fab fa-telegram"></i> Telegram
+              </a>
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="row mb-4 izquierda">
+          <div class="col-md-4">
+            <h4 class="h3">Medios de pago</h4>
+          </div>
+          <div class="col-md-8">
+          <img src="//d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/visa@2x.png" data-src="//d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/visa@2x.png" class="icon-logo ls-is-cached lazyloaded" alt="visa" width="40" height="25">
+          <img src="//d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/mastercard@2x.png" data-src="//d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/mastercard@2x.png" class="icon-logo ls-is-cached lazyloaded" alt="mastercard" width="40" height="25">
+          <img src="//d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/ar/tarjeta-naranja@2x.png" data-src="//d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/ar/tarjeta-naranja@2x.png" class="icon-logo ls-is-cached lazyloaded" alt="ar_tarjeta-naranja" width="40" height="25">
+          <img src="//d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/other@2x.png" data-src="//d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/other@2x.png" class="icon-logo ls-is-cached lazyloaded" alt="other" width="40" height="25">
+          <img src="//d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/maestro@2x.png" data-src="//d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/maestro@2x.png" class="icon-logo ls-is-cached lazyloaded" alt="maestro" width="40" height="25">
+          <img src="//d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/visadebit@2x.png" data-src="//d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/visadebit@2x.png" class="icon-logo ls-is-cached lazyloaded" alt="visadebit" width="40" height="25">
+          </div>
+        </div>
+        <div class="container">
+          <p>&copy; 2023 Mi Empresa. Todos los derechos reservados.</p>
+          
+      </div>
+      </footer>
+      <script src="js/bootstrap.bundle.js"></script>
+      <script src="js/Modificaciones/script.js"></script>
+  </body>
+  </html>

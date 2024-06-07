@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn{
+  background-color: #f0f2f3;
+  color: blue;
+}
+header{
+    background-color: #f0f2f3;
+}
+.izquierda{
+  text-align: center;
+}
+.Inicio{
+    display: flex;
+    flex-direction: row;
+}
+.form-control {
+    height: 40px;
+    flex: 1; 
+  }
+.mi-busqueda {
+    width: 300px; 
+  }
+.search-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer{
+  background-color: #f0f2f3;
+}
+.imagenproducto {
+  width: 550px;
+  height: auto;
+}
+
+
